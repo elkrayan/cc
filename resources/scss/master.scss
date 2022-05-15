@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form{
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        label{
+            font-weight: 600;
+        }
+    }
+    button{
+        padding: .8rem;
+        font-weight: 600;
+    }
+}

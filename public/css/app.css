@@ -1,0 +1,12 @@
+#login {
+  height: 100vh;
+}
+#login > div {
+  height: 100%;
+}
+#login main {
+  padding: 1.8rem 1rem;
+}
+#login aside {
+  background-color: red;
+}
