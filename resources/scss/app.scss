@@ -1,3 +1,27 @@
+nav{
+    justify-content: space-between;
+    padding: 1.125rem;
+    .brand{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .horizontal-list{
+        display: flex;
+        flex-direction: row;
+        li{
+            margin: 0 12px;
+        }
+    }
+}
+header{
+
+}
+main{
+
+}
+footer{
+    display: none !important;
+}
 #login{
     height: 100vh;
     > div {

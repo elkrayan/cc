@@ -9,6 +9,13 @@ form{
         label{
             font-weight: 600;
         }
+        &.blank{
+            display: flex;
+            flex-grow: 1;
+        }
+        &.divider{
+            margin-top: 20px;
+        }
     }
     button{
         padding: .8rem;
