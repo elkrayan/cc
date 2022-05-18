@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\DemandController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,9 +24,7 @@ Route::get('/login', function () {
 Route::get('/new', function () {
     return view('demands.new-demand');
 });
-Route::get('/dash', function () {
-    return view('demands.dashboard');
-});
+Route::get('/dash', [DemandController::class, 'index'])->name('dashboard');
 Route::get('/detail', function () {
     return view('demands.detail');
 });

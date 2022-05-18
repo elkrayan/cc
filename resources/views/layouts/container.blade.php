@@ -4,8 +4,8 @@
     <nav class="flex w-full mb-4 bg-sky-600 text-white">
         <a href="" class="brand">CC</a>
         <ul class="horizontal-list">
-            <li class=""><a href="">Dashboard</a></li>
-            <li class=""><a href="">Nouvelle demande</a></li>
+            <li class=""><a href="{{ route('dashboard') }}">Dashboard</a></li>
+            <li class=""><a href="{{ route('new-demand') }}">Nouvelle demande</a></li>
             <li class=""><a href="">Support</a></li>
         </ul>
     </nav>
