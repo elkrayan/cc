@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47aa4267-2e2e-40e9-94f1-db2fa4ce6cca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DemandController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Demand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2022_05_18_115517_create_demands_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/container.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/container.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +183,7 @@
       <workItem from="1652872535911" duration="464000" />
       <workItem from="1652873018807" duration="2345000" />
       <workItem from="1652876158908" duration="1199000" />
+      <workItem from="1652953945070" duration="6000" />
     </task>
     <servers />
   </component>
